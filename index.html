@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Aion Lutetias</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <SCRIPT type="text/javascript"
+        src="http://code.jquery.com/jquery-latest.js"></SCRIPT>
+
+  </head>
+  <body>
+
+    <div class="container" id="fullscreen">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video loop="1" muted="1" autoplay="1" poster="/aionanimated.jpg" class="fullscreen-bg_video">
+          <source src="videos/aionanimated.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-header container header">
+        <h1>Lutetias <small>EU Loki Elyos Templar</small></h1>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <p class="text-muted glyphicon glyphicon-copyright-mark">by TempDesign</p>
+      </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+      $(function(){
+        var shrinkHeader = 70;
+        $(window).scroll(function(){
+          var scroll = getCurrentScroll();
+            if(scroll >= shrinkHeader){
+              $('.header').addClass('shrink');
+            }else {
+              $('.header').removeClass('shrink')
+            }
+        });
+
+        function getCurrentScroll(){
+          return window.pageYOffset ||
+          document.documentElement.scrollTop;
+        }
+
+      });
+
+    </script>
+
+
+
+  </body>
+</html>
