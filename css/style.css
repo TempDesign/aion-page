@@ -1,3 +1,17 @@
+@font-face{
+	font-family: "base4";
+	src: url('../fonts/base4.ttf') format('trutype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Colleged";
+	src: url('../fonts/Colleged,ttf') format('truetpye');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .header h1{
 	margin-top: 50px;
 	margin-left: 20px;
