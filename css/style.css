@@ -1,13 +1,13 @@
 @font-face{
-	font-family: "base4";
-	src: url('../fonts/base4.ttf') format('trutype');
+	font-family: "Base4";
+	src: url('../fonts/base4.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: "Colleged";
-	src: url('../fonts/Colleged,ttf') format('truetpye');
+	src: url('../fonts/Colleged.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
