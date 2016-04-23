@@ -9,6 +9,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
     <SCRIPT type="text/javascript"
         src="http://code.jquery.com/jquery-latest.js"></SCRIPT>
@@ -16,7 +17,54 @@
   </head>
   <body>
 
-    <div class="container" id="fullscreen">
+    <div class="container">
+      <div class="page-header container header">
+        <h1>Lutetias <small>EU Loki Elyos Templar</small></h1>
+      </div>
+    </div>
+
+    <section class="container content-section text-center" id="about">
+      <div class="row about_row">
+        <div class="col-md-8 col-md-offset-2">
+          <ul class="list-inline">
+            <li>
+              <a target="_blank" href="http://aion.mouseclic.com/tool/gearcalc/55092" class="btn btn-default btn-lg">
+                <i class="fa fa-shield fa-2x" aria-hidden="true"></i>
+                <span class="category">   Gear</span>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="http://aion.mouseclic.com/tool/stigma/bACHLPQ65" class="btn btn-default btn-lg">
+                <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+                <span class="category">   Stigma</span>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="#" class="btn btn-default btn-lg">
+                <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+                <span class="category">   Legion</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row about_row">
+        <div class="col-md-1 col-md-offset-1" id="social_1">
+          <a target="_blank" href="https://www.facebook.com/lutetias.kromede" class="btn btn-default btn-lg">
+            <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+            <span class="category">   Facebook</span>
+          </a>
+        </div>
+        <div class="col-md-1 col-md-offset-10" id="social_2">
+          <a target="_blank" href="https://www.twitch.tv/lutetias" class="btn btn-default btn-lg">
+            <i class="fa fa-twitch fa-2x" aria-hidden="true"></i>
+            <span class="category">   Twitch</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="fullscreen-bg" id="fullscreen">
       <div class="embed-responsive embed-responsive-16by9">
         <video loop="1" muted="1" autoplay="1" poster="/aionanimated.jpg" class="fullscreen-bg_video">
           <source src="videos/aionanimated.mp4" type="video/mp4">
@@ -24,15 +72,13 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="page-header container header">
-        <h1>Lutetias <small>EU Loki Elyos Templar</small></h1>
-      </div>
-    </div>
-
     <footer class="footer">
       <div class="container-fluid">
         <p class="text-muted glyphicon glyphicon-copyright-mark">by TempDesign</p>
+        <a target="_blank" href="#" class="btn btn-default btn-sm" id="donation">
+          <i class="fa fa-paypal fa-2x" aria-hidden="true"></i>
+          <span class="category" id="don">Donation</span>
+        </a>
       </div>
     </footer>
 
