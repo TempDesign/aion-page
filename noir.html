@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Noir</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <SCRIPT type="text/javascript"
+        src="http://code.jquery.com/jquery-latest.js"></SCRIPT>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="page-header container header">
+        <h1>Noir <small>EU Loki Elyos Legion</small></h1>
+      </div>
+    </div>
+
+    <div class="fullscreen-bg">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video loop="1" muted="1" class="fullscreen-bg_video" id="fullscreen_lute">
+          <source src="videos/aionanimated.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="fullscreen-bg">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video loop="1" muted="1" class="fullscreen-bg_video" id="fullscreen_yunex">
+          <source src="videos/yunex.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="fullscreen-bg">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video loop="1" muted="1" class="fullscreen-bg_video" id="fullscreen_lilou">
+          <source src="videos/lilou.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="fullscreen-bg">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video loop="1" muted="1" class="fullscreen-bg_video" id="fullscreen_prcc">
+          <source src="videos/prcc.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="fullscreen-bg">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video loop="1" muted="1" class="fullscreen-bg_video" id="fullscreen_limmer">
+          <source src="videos/limmer.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="row char_set">
+      <div class="col-md-2">
+        <button class="btn btn-default btn-lg info" type="button" id="lutetias_btn">
+          <h3 class="name">
+            <img src="images/templar.png" class="class">Lutetias
+          </h3>
+        </button>
+        <div class="list-group" id="lutetias_info">
+          <br>
+          <br>
+          <br>
+          <a href="#" class="list-group-item"><h4>Attack: 1300</h4></a>
+          <a href="#" class="list-group-item"><h4>Accuracy: 3460</h4></a>
+          <a href="#" class="list-group-item"><h4>Crit: 1065</h4></a>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-default btn-lg info" type="button" id="yunex_btn">
+          <h3 class="name">
+            <img src="images/templar.png" class="class">Yunex
+          </h3>
+        </button>
+        <div class="list-group" id="yunex_info">
+          <br>
+          <br>
+          <br>
+          <a href="#" class="list-group-item"><h4>Attack: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>Accuracy: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>Crit: ----</h4></a>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-default btn-lg info" type="button" id="lilou_btn">
+          <h3 class="name">
+            <img src="images/chanter.png" class="class">Lilou
+          </h3>
+        </button>
+        <div class="list-group" id="lilou_info">
+          <br>
+          <br>
+          <br>
+          <a href="#" class="list-group-item"><h4>Attack: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>Accuracy: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>Crit: ----</h4></a>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-default btn-lg info" type="button" id="prcc_btn">
+          <h3 class="name">
+            <img src="images/sorc.png" class="class">Prcc
+          </h3>
+        </button>
+        <div class="list-group" id="prcc_info">
+          <br>
+          <br>
+          <br>
+          <a href="#" class="list-group-item"><h4>M-Boost: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>M-Accuracy: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>M-Crit: ---</h4></a>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-default btn-lg info" type="button" id="limmer_btn">
+          <h3 class="name">
+            <img src="images/sin.png" class="class">Limmer
+          </h3>
+        </button>
+        <div class="list-group" id="limmer_info">
+          <br>
+          <br>
+          <br>
+          <a href="#" class="list-group-item"><h4>M-Boost: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>M-Accuracy: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>M-Crit: ---</h4></a>
+        </div>
+      </div>
+       <div class="col-md-2">
+        <button class="btn btn-default btn-lg info" type="button" id="cevyy_btn">
+          <h3 class="name">
+            <img src="images/sorc.png" class="class">Chiyuo
+          </h3>
+        </button>
+        <div class="list-group" id="chiyuo_info">
+          <br>
+          <br>
+          <br>
+          <a href="#" class="list-group-item"><h4>M-Boost: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>M-Accuracy: ----</h4></a>
+          <a href="#" class="list-group-item"><h4>M-Crit: ---</h4></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <p class="text-muted glyphicon glyphicon-copyright-mark">by TempDesign</p>
+        <a target="_blank" href="#" class="btn btn-default btn-sm" id="donation">
+          <i class="fa fa-paypal fa-2x" aria-hidden="true"></i>
+          <span class="category" id="don">Donation</span>
+        </a>
+      </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+      $(function(){
+        var shrinkHeader = 70;
+        $(window).scroll(function(){
+          var scroll = getCurrentScroll();
+            if(scroll >= shrinkHeader){
+              $('.header').addClass('shrink');
+            }else {
+              $('.header').removeClass('shrink')
+            }
+        });
+
+        function getCurrentScroll(){
+          return window.pageYOffset ||
+          document.documentElement.scrollTop;
+        }
+
+      });
+
+      $(function(){
+        $('#lutetias_btn').on('click', function(){
+            $('#lutetias_info').toggle(800);
+            $('#fullscreen_lute').fadeToggle(1100);
+            $('#fullscreen_lute').get(0).paused ? $('#fullscreen_lute').get(0).play() : $('#fullscreen_lute').get(0).pause();
+        });
+
+        $('#yunex_btn').on('click', function(){
+          $('#yunex_info').toggle(800);
+          $('#fullscreen_yunex').fadeToggle(1100);
+          $('#fullscreen_yunex').get(0).paused ? $('#fullscreen_yunex').get(0).play() : $('#fullscreen_yunex').get(0).pause();
+        });
+
+        $('#lilou_btn').on('click', function(){
+          $('#lilou_info').toggle(800);
+          $('#fullscreen_lilou').fadeToggle(1100);
+          $('#fullscreen_lilou').get(0).paused ? $('#fullscreen_lilou').get(0).play() : $('#fullscreen_lilou').get(0).pause();
+        });
+
+        $('#prcc_btn').on('click', function(){
+          $('#prcc_info').toggle(800);
+          $('#fullscreen_prcc').fadeToggle(1100);
+          $('#fullscreen_prcc').get(0).paused ? $('#fullscreen_prcc').get(0).play() : $('#fullscreen_prcc').get(0).pause();
+        });
+
+        $('#limmer_btn').on('click', function(){
+          $('#limmer_info').toggle(800);
+          $('#fullscreen_limmer').fadeToggle(1100);
+          $('#fullscreen_limmer').get(0).paused ? $('#fullscreen_limmer').get(0).play() : $('#fullscreen_limmer').get(0).pause();
+          // $('h4').css({color: 'white'});
+        });
+
+        $('#cevyy_btn').on('click',function(){
+          $('#chiyuo_info').toggle(800);
+        });
+
+      });
+
+    </script>
+
+
+
+  </body>
+</html>

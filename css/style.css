@@ -12,6 +12,13 @@
 	font-style: normal;
 }
 
+@font-face{
+	font-family: "CROWNT";
+	src: url('../fonts/CROWNT.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .header h1{
 	margin-top: 50px;
 	margin-left: 20px;
@@ -74,7 +81,7 @@
 }
 
 .fullscreen-bg{
-	position: relative;
+	position: absolute;
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
@@ -99,6 +106,7 @@
 
 .about_row{
 	background-color: transparent;
+	margin: 0;
 }
 
 li{
@@ -109,17 +117,40 @@ h3{
 	margin: 0 auto;
 }
 
+h3.name{
+	margin: 0 auto;
+}
 
 .btn-default{
 	border: 1px solid black;
 	color: black;
-	font-family: Colleged; 
+	font-weight: bolder;
+	font-family: base4; 
 	background-color: transparent;
 	transition: all 0.6s ease-in-out;
 }
 
 .btn-default:hover{
 	background-color: black;
+	color: white;
+	opacity: 1;
+}
+
+.btn-default.info{
+	border: 1px solid black;
+	font-family: base4;
+	/*border: solid;*/
+	/*background-color: transparent;*/
+	background-color: black;
+	color: white;
+	border-color: white;
+	text-shadow: 1px 1px 1px;
+	transition: all 0.6s ease-in-out;
+
+}
+
+.btn-default.info:hover{
+	background-color: grey;
 	color: white;
 	opacity: 1;
 }
@@ -141,7 +172,7 @@ h3{
 
 
 #donation{
-	margin-left: 850px;
+	margin-left: 0;
 	margin-top: 8px;
 	opacity: 0.8;
 }
@@ -151,4 +182,122 @@ h3{
 	font-size: 20px;
 }
 
+.char_set{
+	margin-top: 250px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: transparent;
+}
 
+#lutetias_btn{
+	margin-left: 25%;
+}
+
+#yunex_btn{
+	margin-left: 30%;
+}
+
+#lilou_btn{
+	margin-left: 30%;
+}
+
+#prcc_btn{
+	margin-left: 30%
+}
+
+#limmer_btn{
+	margin-left: 25%;
+}
+
+#cevyy_btn{
+	margin-left: 25%;
+}
+
+h4 {
+	text-align: center;
+	font-family: base4;
+	font-size: 23px;
+	font-weight: bolder;
+	color: white;
+}
+
+.list-group-item{
+	background-color: transparent;
+	transition: all;
+}
+
+.list-group-item:hover{
+	background-color: black;
+}
+
+a.list-group-item{
+	color: white;
+	font-family: Arial;
+	font-weight: bolder;
+}
+
+#lutetias_info{
+	background-color: transparent;
+	display: none;
+}
+
+#yunex_info{
+	background-color: transparent;
+	display: none;
+}
+
+#lilou_info{
+	background-color: transparent;
+	display: none;
+}
+
+#prcc_info{
+	background-color: transparent;
+	display: none;
+}
+
+#limmer_info{
+	background-color: transparent;
+	display: none;
+}
+
+#chiyuo_info{
+	background-color: transparent;
+	display: none;
+}
+
+#fullscreen_lute{
+	position: absolute;
+	display: none;
+}
+
+#fullscreen_yunex{
+	position: absolute;
+	display: none;
+}
+
+#fullscreen_limmer{
+	position: absolute;
+	display: none;
+}
+
+#fullscreen_prcc{
+	position: absolute;
+	display: none;
+}
+
+#fullscreen_lilou{
+	position: absolute;
+	display: none;
+}
+
+.class{
+	height: 30px;
+	width: 30px;
+	margin-left: -10px;
+}
+
+.icon{
+	height: 40px;
+	width: 40px;
+}
